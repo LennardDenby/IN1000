@@ -1,0 +1,23 @@
+#1
+if not False:
+    print("Kjører jeg?")
+
+#2
+if not True:
+    print("Kjører jeg?")
+
+#3
+if True or False:
+    print("Kjører jeg?")
+
+#4
+if not True and not not False:
+    print("Kjører jeg?")
+
+#5
+if (not True or not False) and (False or True):
+    print("Kjører jeg?")
+
+#6
+if not not not False and (False or (False and True)):
+    print("Kjører jeg?)
