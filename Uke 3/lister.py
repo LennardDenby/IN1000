@@ -4,4 +4,4 @@ div = ["kamera", "lummebok", "pass", "mobillader"]
 
 koffert = [toalettsaker, klaer, div]
 
-print(koffert[0][])
+print(koffert[0][1])
