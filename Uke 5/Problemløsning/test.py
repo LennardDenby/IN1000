@@ -4,7 +4,7 @@ def fjern_utsolgte(handleliste, utsolgte):
         if vare not in utsolgte:
             nyliste.append(vare)
         else:
-            print(vare)
+            print
     
     return nyliste
 
