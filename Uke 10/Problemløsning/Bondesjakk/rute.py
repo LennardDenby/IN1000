@@ -17,3 +17,8 @@ class Rute:
         if self._tilhorer:
             return self._tilhorer.hent_symbol()
         return "_"
+    
+    def __eq__(self, annen: "Rute"):
+        if not self._tilhorer or not annen._tilhorer:
+            return False
+        return self._tilhorer.hent_symbol() == annen._tilhorer.hent_symbol()
